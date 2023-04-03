@@ -59,11 +59,15 @@ nav button:hover {
 
 .section-recherche p {
     font-size: 16px;
-    margin-top: 8px;
+    font-weight: 400;
 }
 
 .section-recherche {
     margin-top: 60px;
+}
+
+.recherche-title p{
+    margin-top: 8px;
 }
 
 .form-container {
@@ -73,6 +77,7 @@ nav button:hover {
 form {
     display: flex;
     align-items: center;
+    text-align: center;
     width: 377px;
     height: 49px;
     border: 1px solid #F2F2F2;
@@ -88,12 +93,16 @@ button {
     text-align: center;
 }
 
-.form-container i {
+.fa-location-dot{
+    color: black;
+    margin: 15px 18px 15px 18px;
+}
+
+#location-item{
+    background: #F2F2F2;
     width: 50px;
     height: 49px;
-    background: #F2F2F2;
     border-radius: 15px 0 0 15px;
-    color: black;
 }
 
 .form-container button {
@@ -118,7 +127,6 @@ button {
 }
 
 .filtre-container i {
-    color: #0065FC;
     padding-right: 10px;
 }
 
@@ -132,6 +140,24 @@ button {
 
 .filtre-container button:hover {
     background-color: #DEEBFF;
+}
+
+
+/* phrase d'information */
+
+.info-container{
+    display: flex;
+    margin: 37.5px 0 37.5px 0;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+#logo-info{
+    border: 1px solid #D9D9D9;
+    border-radius: 50px;
+    width: 24px;
+    height: 24px;
 }
 
 /* section carte */
