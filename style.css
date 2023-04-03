@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 :root {
@@ -24,6 +25,116 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
+
+/* header */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo-booki {
+    height: 19px;
+    width: 61px;
+    margin-top: 30px;
+}
+
+nav button {
+    text-decoration: none;
+    background: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 69px;
+    padding: 0;
+}
+
+nav button:hover {
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+
+/* section recherche */
+
+.section-recherche p {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.section-recherche {
+    margin-top: 60px;
+}
+
+.form-container {
+    margin-top: 35px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    width: 377px;
+    height: 49px;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+}
+
+input,
+button {
+    border: none;
+    height: 49px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form-container i {
+    width: 50px;
+    height: 49px;
+    background: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    color: black;
+}
+
+.form-container button {
+    background: #0065FC;
+    color: white;
+    border-radius: 0 15px 15px 0;
+}
+
+/* section filtre */
+
+.filtre-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.filtre-container p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 49.5px;
+}
+
+.filtre-container i {
+    color: #0065FC;
+    padding-right: 10px;
+}
+
+.filtre-container button {
+    border-radius: 25px;
+    font-size: 17px;
+    padding: 15px 19px 15px 19px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+}
+
+.filtre-container button:hover {
+    background-color: #DEEBFF;
+}
+
+/* section carte */
 
 .section-title {
     margin: 0;
