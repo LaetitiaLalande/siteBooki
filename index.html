@@ -17,56 +17,62 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
     <div class="main-container">
       <header>
-        <nav>
+        
+        <div class="menu-container">
           <img src="./images/logo/Booki.png" alt="logo-booki" id="logo-booki" />
-          <div class="nav-bouton">
-            <button>Hébergement</button>
-            <button>Activités</button>
-          </div>
-        </nav>
+          <nav class="menu">
+            <ul>
+              <li><a href="">Hébergement</a></li>
+              <li><a href="">Activités</a></li>
+            </ul>
+          </nav>
+        </div>
+
       </header>
 
       <main>
-        <section class="section-recherche">
-          <div class="recherche-title">
+        <section class="section-research">
+          <div class="research-title-container">
             <h2 class="section-title">
               Trouvez votre hébergement pour des vacances de rêve
             </h2>
             <p>En plein centre-ville ou en pleine nature</p>
           </div>
 
-          <div class="form-container">
           <form action="">
             <div id="location-item">
-            <i class="fa-solid fa-location-dot"></i>
+              <i class="fa-solid fa-location-dot"></i>
             </div>
-            <input type="search" id="site-search" name="" />
-            <button>Rechercher</button>
-          </form> 
-          </div>
+            <input
+              type="search"
+              id="site-search"
+              name=""
+              placeholder="Marseille, France"
+            />
+            <button class="btn-form">Rechercher</button>
+          </form>
 
-          <div class="filtre-container">
+          <div class="filter-container">
             <p>Filtres</p>
-            <button><i class="fa-solid fa-money-bill-wave"></i>Economique</button>
-            <button><i class="fa-solid fa-person"></i>Familial</button>
-            <button><i class="fa-solid fa-heart"></i>Romantique</button>
-            <button><i class="fa-solid fa-fire"></i>Nos pépites</button>
-            <button><i class="fa-solid fa-dog"></i>Animaux autorisés</button>
-          </div>
-        
-          <div class="info-container">
-          <div id="logo-info">
-            <i class="fa-solid fa-info fa-2xs"></i>
-          </div>
-          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            <a href="" class="link-filter"><i class="fa-solid fa-money-bill-wave"></i>Économique</a>
+            <a href="" class="link-filter"><i class="fa-solid fa-person"></i>Familial</a>
+            <a href="" class="link-filter"><i class="fa-solid fa-heart"></i>Romantique</a>
+            <a href="" class="link-filter"><i class="fa-solid fa-fire"></i>Nos pépites</a>
+            <a href="" class="link-filter"><i class="fa-solid fa-dog"></i>Animaux autorisés</a>
           </div>
 
+          <div class="info-container">
+            <div id="logo-info">
+              <i class="fa-solid fa-info fa-2xs"></i>
+            </div>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+          </div>
         </section>
 
         <div class="hebergements-and-populaires">
