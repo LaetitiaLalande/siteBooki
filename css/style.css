@@ -193,17 +193,18 @@ form input,
 
 .card-title {
     font-size: 16px;
+    color: black;
 }
 
 .euro {
     font-weight: 700;
 }
 
-.neutralStar {
-    color: var(--main-bg-color)
+.neutral-star {
+    color: var(--main-bg-color);
 }
 
-/****** Hebergements And Populaires ***********/
+/****** Hebergements And Populaires***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -237,6 +238,10 @@ form input,
     margin-top: 30px;
 }
 
+.hebergements-cards a{
+    width: 30%;
+}
+
 .hebergements-cards img {
     height: 124px;
     width: 100%;
@@ -245,7 +250,6 @@ form input,
 
 .hebergements-cards .card {
     margin-bottom: 30px;
-    width: 243px;
 }
 
 .hebergements-cards .card-content {
@@ -311,8 +315,44 @@ form input,
     margin-bottom: 5px;
 }
 
+/* section activites */
 
+.activites {
+    margin-top: 35px;
+    padding: 30px;
+}
 
+.activites .section-title {
+    margin-bottom: 30px;
+}
+
+.activites-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.activites-cards .card {
+    padding: 0;
+}
+
+.activites-cards img {
+    border-radius: 20px 20px 0px 0px;
+    height: 380px;
+    width: 100%;
+}
+
+.activites .card-content {
+    height: 59px;
+}
+
+.activites-cards a {
+    text-decoration: none;
+    width: 25%;
+}
+
+.activites .card-title {
+    padding: 20px 19px 20px 19px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
