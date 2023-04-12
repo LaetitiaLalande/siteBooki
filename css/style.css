@@ -403,13 +403,13 @@ footer .footer-content {
     padding: 20px;
 }
 
-footer h4 {
-    font-weight: 700;
-    font-size: 18px;
-}
-
 footer ul {
     padding-left: 0;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 18px;
 }
 
 footer li {
@@ -600,7 +600,8 @@ footer a {
         gap: 15px;
     }
 
-    .hotel-and-popular section {
+    .hotel-and-popular section,
+    aside {
         border-radius: 0;
         box-sizing: border-box;
         padding: 20px;
